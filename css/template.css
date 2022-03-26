@@ -1,0 +1,15 @@
+/*Top bar section*/
+.social-media-icons{
+	background: green;
+	height: 30px;
+}
+
+.search {
+	background: yellow;
+	height: 30px;
+}
+
+/*Menu*/
+.main-menu ul li, .footer-menu ul li {
+	display: inline;
+}
