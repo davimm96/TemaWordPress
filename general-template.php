@@ -16,13 +16,9 @@
                         ?>
                         <article>
                             <h2><?php the_title(); //Titulo do artigo?></h2>
-                            <p>Published in <?php echo get_the_date(); //Data do artigo?> by
-                            <?php the_author_posts_link();?></p>
-                            <p>Categories: <?php the_category(' '); //Categoria?></p>
-                            <p><?php the_tags('Tags: ', ', '); //Tags?></p>
                             <?php the_content();?>
                         </article>
-                        <p>Modelo de página padrão</p>
+                   
                         <?php 
                             endwhile;
                         else:
